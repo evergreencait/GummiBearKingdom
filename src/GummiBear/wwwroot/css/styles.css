@@ -1,0 +1,11 @@
+﻿html, body {
+    height: 100%;
+}
+.container {
+   -webkit-box-shadow: -1px 3px 37px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 37px 5px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 37px 5px rgba(0,0,0,0.75);
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+}
