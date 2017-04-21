@@ -53,21 +53,30 @@ ul {
 
 .flex-item {
     background-color: white;
+    padding-top: 10px;
     width: 400px;
     height: 300px;
     margin: 20px;
-    box-shadow: -1px 3px 37px 5px rgba(0,0,0,0.75);
     text-align: center;
     font-family: 'Gudea', sans-serif;
     font-size: 22px;
-    background-color: 
-    color: white;
+    color: black;
+    overflow: hidden;
+
+}
+
+.flex-item:hover {
+  height: 350px;
+  width: 480px;
+  -webkit-box-shadow: 10px 6px 108px 37px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 6px 108px 37px rgba(0,0,0,0.75);
+  box-shadow: 10px 6px 108px 37px rgba(0,0,0,0.75);
 }
 
 .fleximg {
     height: 200px;
     margin-left: 8px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .circle {
