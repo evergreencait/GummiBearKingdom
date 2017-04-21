@@ -23,5 +23,18 @@ namespace GummiBear.Controllers
             var thisBear = db.Bears.FirstOrDefault(bears => bears.BearId == id);
             return View(thisBear);
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Bear bear)
+        {
+            db.Bears.Add(bear);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
