@@ -10,13 +10,15 @@
     <title>Kingdom</title>
 </head>
 <body>
-    <h2>Gummi Bears</h2>
-    <ul>
-        @foreach (var listBear in Model)
-        {
-            <li>@Html.DisplayFor(modelBear => listBear.Name)| @Html.ActionLink("Details", "Details", new { id = listBear.BearId }) | @Html.ActionLink("Edit", "Edit", new { id = listBear.BearId }) | @Html.ActionLink("Delete", "Delete", new { id = listBear.BearId })</li>
-        }
-    </ul>
-    <p>@Html.ActionLink("Add new gummi bear", "Create")</p>
+    <div class="bearindex"><h2>Products: Gummi Bears</h2>
+<ul>
+    @foreach (var listBear in Model)
+    {
+        <li>@Html.DisplayFor(modelBear => listBear.Name)| @Html.ActionLink("Details", "Details", new { id = listBear.BearId }) | @Html.ActionLink("Edit", "Edit", new { id = listBear.BearId }) | @Html.ActionLink("Delete", "Delete", new { id = listBear.BearId })</li>
+    }
+</ul>
+<p>@Html.ActionLink("Add new gummi bear", "Create")</p>
+    </div>
+  
 </body>
 </html>
