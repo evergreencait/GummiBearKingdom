@@ -41,7 +41,7 @@ namespace GummiBear
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Places}/{action=index}/{id?}");
+                    template: "{controller=Home}/{action=index}/{id?}");
             });
 
             app.UseStaticFiles();
