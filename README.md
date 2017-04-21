@@ -6,7 +6,7 @@
 
 ## Description
 
-_This application will allow users to: see a home page, navigate to "products" through the nav bar, do CRUD functionality on gummy bears on the site._
+_This application will allow users to: see a home page, navigate to "products" through the nav bar, do CRUD functionality on gummy bears on the site. The design is inspired by wholefoods.com_
 
 
 ## Support and contact details
