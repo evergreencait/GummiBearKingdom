@@ -57,11 +57,17 @@ ul {
     height: 300px;
     margin: 20px;
     box-shadow: -1px 3px 37px 5px rgba(0,0,0,0.75);
+    text-align: center;
+    font-family: 'Gudea', sans-serif;
+    font-size: 22px;
+    background-color: 
+    color: white;
 }
 
 .fleximg {
     height: 200px;
-    margin: 25%;
+    margin-left: 8px;
+    margin-top: 50px;
 }
 
 .circle {
@@ -93,4 +99,28 @@ ul {
 .white {
     height: 200px;
     background-color: white;
+}
+
+.first {
+    background-color: #FF4C4C;
+}
+
+.second {
+    background-color: #FFA500;
+}
+
+.third {
+    background-color: #FFFF4C;
+}
+
+.fourth {
+    background-color: #4CBB17;
+}
+
+.fifth {
+    background-color: #fffdd0;
+}
+
+.sixth {
+    background-color: #00BFFF;
 }
