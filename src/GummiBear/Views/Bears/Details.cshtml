@@ -10,11 +10,15 @@
     <title>Gummi Bear - Details</title>
 </head>
 <body>
-    <h2>Details</h2>
-    <hr />
-    @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
-    @Html.DisplayNameFor(model => model.Cost): @Html.DisplayFor(model => model.Cost) dollars
-    @Html.DisplayNameFor(model => model.Country): @Html.DisplayFor(model => model.Country)
-    <p>@Html.ActionLink("Back to list", "Index")</p>
+    <div class="bearindex">
+        <h2>Details</h2>
+        <hr />
+        @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<br />
+
+        @Html.DisplayNameFor(model => model.Cost): @Html.DisplayFor(model => model.Cost) dollars<br />
+
+        @Html.DisplayNameFor(model => model.Country): @Html.DisplayFor(model => model.Country)<br /><br />
+        <p>@Html.ActionLink("Back to list", "Index")</p>
+    </div>
 </body>
 </html>

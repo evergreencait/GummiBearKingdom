@@ -10,14 +10,17 @@
     <title>Gummi Bear - Delete</title>
 </head>
 <body>
+    <div class="bearindex">
 
-    <h2>Are you sure you want to delete this?</h2>
-    <hr />
-    @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
-    @using (Html.BeginForm())
-    {
-        <input type="submit" value="Delete" />
-    }
-    @Html.ActionLink("Back to List", "Index")
+        <h2>Are you sure you want to delete this?</h2>
+        <hr />
+        @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
+        @using (Html.BeginForm())
+        {
+            <input type="submit" value="Delete" class="btn btn-danger"/>
+        }
+        <br>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
 </body>
 </html>
